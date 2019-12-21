@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Comics</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div  id="div">
+    <button onclick="goBack()" id="btn">
+      <img  style="width: 54px; height: 30px;"
+      src="img/arrow.jpg" alt="">
+    </button>
+    <img  id="pic" onclick="swap()"src="img/1.png" alt="">
+  </div>
+
+  <div id="drag">
+    <div id="area">
+      transfer the data here!
+      <img src="img/girl.png">
+    </div>
+    <div class="image-box" id="img-box-1" draggable="true">
+      <img class="dpic" src="img/ins1.jpg" alt="">
+    </div>
+    <div class="image-box" id="img-box-2" draggable="true">
+      <img class="dpic" src="img/ins2.jpg" alt="">
+    </div>
+    <div class="image-box" id=img-box-3 draggable="true">
+      <img class="dpic" src="img/ins3.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div id="scroll" onscroll="walk()">
+    <img id="walkingGirl" src="img/walkinggirl.png" alt=''>
+    <img src="img/road.png" alt="">
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

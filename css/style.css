@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* .container {
+display: flex;
+flex-wrap: wrap;
+} */
+/* button{
+margin-left: 10px;
+width: 54px;
+height: 30px;
+} */
+
+/* #common {
+  display: none;
+  height: auto;
+  width: auto;
+  margin: auto;
+
+} */
+
+#drag {
+  background-image: url('img/screenshot.jpg');
+  display: none;
+  flex-wrap: wrap;
+  width: 1024px;
+  height: 718px;
+  margin: auto;
+
+
+}
+
+/* #div{
+display: none;
+} */
+#btn {
+  position: fixed;
+  top:5%;
+  left:10%;
+  background-color:white;
+}
+#pic {
+  /* position: fixed; */
+  display: block;
+
+  /* max-width: 100%;
+  max-height: 100%; */
+  width: 1024px;
+  height: 718px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box{
+  margin: 50px;
+  width: auto;
+  height: auto;
+}
+.dpic {
+  width: 200px;
+  height: 354px;
+}
+
+
+#scroll {
+  display: none;
+  position: relative;
+  width: 1024px;
+  height: 718px;
+  margin: auto;
+}
+
+#walkingGirl {
+  position: fixed;
+width: 100px;
+height: 100px;
+  right: 700px;
+  top: 300px;
+}
+
+.image-box{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+
+}
+#image-box-1{
+  left: 10px;
+  top: 10px;
+
+}
+
+#image-box-2{
+left: 300px;
+top: 10px;
+}
+
+#image-box-3{
+left: 600px;
+top: 10px;
+}
+
+#area{
+  position: absolute;
+  left: 400px;
+  top: 300px;
+
+}
